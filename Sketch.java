@@ -24,6 +24,21 @@ public class Sketch extends PApplet {
    */
   public void draw() {
 	  
+    // Background circles
+    stroke(255, 72, 0);
+    fill(255, 72, 0);
+    ellipse(10, 30, 34, 34);
+    ellipse(300, 350, 50, 50);
+    ellipse(40, 345, 20, 20);
+    ellipse(355, 150, 70, 70);
+    ellipse(100, 0, 90, 90);
+    ellipse(20, 245, 40, 40);
+    ellipse(390, 30, 70, 70);
+    ellipse(200, 380, 30, 30);
+
+    // Stroke reset
+    stroke(0);
+
 	  // Rectangle
     fill(71, 209, 117);
     rect(50, 50, 300, 300);
